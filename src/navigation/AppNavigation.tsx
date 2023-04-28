@@ -9,9 +9,10 @@ const AppNavigation = () => {
     return <>
         <NavigationContainer>
         <Stack.Navigator>
+            <Stack.Screen name="Onboard" component={OnBoardingScreen} />
             <Stack.Screen name="Home" component={HomeScreen} />
             {/* <Stack.Screen name="Details" component={DetailsScreen} /> */}
-            <Stack.Screen name="Details" component={OnBoardingScreen} />
+            
         </Stack.Navigator>
         </NavigationContainer>
     </>
