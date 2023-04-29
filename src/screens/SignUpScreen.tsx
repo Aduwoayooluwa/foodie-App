@@ -2,7 +2,7 @@ import { SignUp } from "../interfaces/screens.interface";
 import { View } from 'react-native'
 
 
-const SignUpScreen: SignUp = () => {
+const SignUpScreen = () => {
     return <View>
 
     </View>

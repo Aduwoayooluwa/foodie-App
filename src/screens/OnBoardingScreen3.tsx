@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 
 type Props = {};
 
-const OnBoardingScreen = (props: Props) => {
+const OnBoardingScreen3 = (props: Props) => {
     const navigation: any = useNavigation()
 
     return (
@@ -14,24 +14,23 @@ const OnBoardingScreen = (props: Props) => {
             <View style={styles.illustration} />
 
             <View style={styles.textView}>
-            <Text style={styles.boldText}>Wide range of Food Categories & more</Text>
+            <Text style={styles.boldText}>Get started on Ordering your Food</Text>
             <Text style={styles.pText}>
-                Browse through our extensive list of restaurants and dishes, and when you're ready to order, simply add your
-                desired items to your cart and checkout. It's that easy!
+            Please create an account or sign in to your existing account to start browsing our selection of delicious meals from your favorite restaurants.
             </Text>
             </View>
 
             <View style={styles.buttonView}>
-            <Button name="skip" onPress={() => navigation.navigate('Signin')} />
+            <Button name="skip" onPress={() => ''} />
 
-            <Button name="Next" onPress={() => navigation.navigate('OnBoardSecond')} />
+            <Button name="Next" onPress={() => navigation.navigate('')} />
             </View>
         </View>
         </View>
     );
 };
 
-export default OnBoardingScreen;
+export default OnBoardingScreen3;
 
 const styles = StyleSheet.create({
 container: {
@@ -60,21 +59,18 @@ illustration: {
 boldText: {
     fontWeight: '500',
     fontSize: 36,
-    textAlign: 'left'
 },
 
 pText: {
     fontWeight: '400',
     fontSize: 17,
     color: '#6A798A',
-    textAlign: 'left'
 },
 
 textView: {
     width: 348,
     paddingTop: 10,
     paddingBottom: 20,
-
 },
 
 buttonView: {
