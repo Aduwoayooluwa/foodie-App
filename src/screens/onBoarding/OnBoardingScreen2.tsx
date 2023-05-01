@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Button from '../components/PrimaryButton';
+import Button from '../../components/PrimaryButton';
 import { useNavigation } from '@react-navigation/native';
 
 type Props = {};
 
-const OnBoardingScreen3 = (props: Props) => {
+const OnBoardingScreen2 = (props: Props) => {
     const navigation: any = useNavigation()
 
     return (
@@ -14,23 +14,23 @@ const OnBoardingScreen3 = (props: Props) => {
             <View style={styles.illustration} />
 
             <View style={styles.textView}>
-            <Text style={styles.boldText}>Get started on Ordering your Food</Text>
+            <Text style={styles.boldText}>Free Deliveries for ONE MONTH!!</Text>
             <Text style={styles.pText}>
-            Please create an account or sign in to your existing account to start browsing our selection of delicious meals from your favorite restaurants.
+            Get your favorite meals delivered to your doorstep for free with our online food delivery app - enjoy a whole month of complimentary delivery!
             </Text>
             </View>
 
             <View style={styles.buttonView}>
-            <Button name="skip" onPress={() => ''} />
+            <Button name="skip" onPress={() => navigation.navigate('Signin')} />
 
-            <Button name="Next" onPress={() => navigation.navigate('')} />
+            <Button name="Next" onPress={() => navigation.navigate('OnBoardingScreen3')} />
             </View>
         </View>
         </View>
     );
 };
 
-export default OnBoardingScreen3;
+export default OnBoardingScreen2;
 
 const styles = StyleSheet.create({
 container: {
@@ -71,6 +71,7 @@ textView: {
     width: 348,
     paddingTop: 10,
     paddingBottom: 20,
+
 },
 
 buttonView: {

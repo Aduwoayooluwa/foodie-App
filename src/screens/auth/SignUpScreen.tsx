@@ -1,4 +1,4 @@
-import { SignUp } from "../interfaces/screens.interface";
+import { SignUp } from "../../interfaces/screens.interface";
 import { View } from 'react-native'
 
 

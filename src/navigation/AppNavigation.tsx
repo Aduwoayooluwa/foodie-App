@@ -1,8 +1,8 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import OnBoardingScreen2 from '../screens/OnBoardingScreen2';
-import OnBoardingScreen from '../screens/OnBoardingScreen';
-import OnBoardingScreen3 from '../screens/OnBoardingScreen3';
+import OnBoardingScreen2 from '../screens/onBoarding/OnBoardingScreen2';
+import OnBoardingScreen from '../screens/onBoarding/OnBoardingScreen';
+import OnBoardingScreen3 from '../screens/onBoarding/OnBoardingScreen3';
 
 const Stack = createStackNavigator()
 

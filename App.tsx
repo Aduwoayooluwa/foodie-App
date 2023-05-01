@@ -1,12 +1,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './src/screens/OnBoardingScreen2';
-import OnBoardingScreen from './src/screens/OnBoardingScreen';
-import OnBoardingScreen2 from './src/screens/OnBoardingScreen2';
-import OnBoardingScreen3 from './src/screens/OnBoardingScreen3';
+import HomeScreen from './src/screens/onBoarding/OnBoardingScreen2';
+import OnBoardingScreen from './src/screens/onBoarding/OnBoardingScreen';
+import OnBoardingScreen2 from './src/screens/onBoarding/OnBoardingScreen2';
+import OnBoardingScreen3 from './src/screens/onBoarding/OnBoardingScreen3';
 import { View, Text, StyleSheet } from 'react-native';
-import SignInScreen from './src/screens/SignInScreen';
-import SignUpScreen from './src/screens/SignUpScreen';
+import SignInScreen from './src/screens/auth/SignInScreen';
+import SignUpScreen from './src/screens/auth/SignUpScreen';
 
 const Stack = createStackNavigator()
 

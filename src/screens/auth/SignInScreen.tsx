@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, TextInput} from 'react-native'
-import Button from '../components/PrimaryButton'
+import Button from '../../components/PrimaryButton'
 
 type Props = {}
 
